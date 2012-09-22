@@ -1,4 +1,5 @@
 # SLEE
+${release.dir}
 examples/google-talk-bot/docs/sources-mobicents/src/
 examples/google-talk-bot/docs/sources-telscale/src/
 resources/xmpp/docs/sources-mobicents/src/
