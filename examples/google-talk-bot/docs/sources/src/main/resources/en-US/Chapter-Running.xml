@@ -1,5 +1,8 @@
 <?xml version='1.0'?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [<!ENTITY % BOOK_ENTITIES SYSTEM "JAIN_SLEE_Example_User_Guide.ent">%BOOK_ENTITIES;]>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JAIN_SLEE_Example_User_Guide.ent">
+%BOOK_ENTITIES;
+]>
 
 <chapter id="running">
 
@@ -8,7 +11,7 @@
 	<para>To try the example application a Google Talk account and client is needed, refer to the <ulink url="http://www.google.com/talk/">Google Talk</ulink> website for instructions.</para>
 	
 	<important>
-		<para>To exchange messages, the Google Talk account needs to add the Google Talk Bot account in its buddy list. The Google Talk Bot account is <literal>mobicents.gtalk.bot@gmail.com</literal>.</para>
+		<para>To exchange messages, the Google Talk account needs to add the Google Talk Bot account in its buddy list. The Google Talk Bot account is <literal>slee.gtalk.bot@gmail.com</literal>.</para>
 	</important>
 	
 	<para>Once Google Talk is fully setup and running, start &THIS.PLATFORM; JAIN SLEE and once the service is activated the <literal>Hi, I'm online too!</literal> message should popup, as depicted in the image below.</para> 
