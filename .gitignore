@@ -1,3 +1,11 @@
+# SLEE
+${release.dir}
+${env.JBOSS_HOME}
+examples/google-talk-bot/docs/sources-mobicents/src/
+examples/google-talk-bot/docs/sources-telscale/src/
+resources/xmpp/docs/sources-mobicents/src/
+resources/xmpp/docs/sources-telscale/src/
+
 # Java compiled #
 #################
 *.class
@@ -21,5 +29,5 @@ target
 .Spotlight-V100
 .Trashes
 Icon?
-ehthumbs.db
+thumbs.db
 Thumbs.db
