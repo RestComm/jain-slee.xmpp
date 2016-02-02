@@ -2,16 +2,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
-		<artifactId>mobicents-slee-example-google-talk-bot</artifactId>
+		<artifactId>restcomm-slee-example-google-talk-bot</artifactId>
 		<groupId>org.mobicents.examples</groupId>
 		<version>2.8.0-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>mobicents-slee-example-google-talk-bot-DU</artifactId>
+	<artifactId>restcomm-slee-example-google-talk-bot-DU</artifactId>
 	
 	<dependencies>
 		<dependency>
-			<artifactId>mobicents-slee-example-google-talk-bot-sbb</artifactId>
+			<artifactId>restcomm-slee-example-google-talk-bot-sbb</artifactId>
 			<groupId>${pom.groupId}</groupId>
 			<version>${pom.version}</version>
 		</dependency>

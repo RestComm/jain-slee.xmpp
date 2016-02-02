@@ -4,12 +4,12 @@
 	<packaging>pom</packaging>
 	
 	<parent>
-		<artifactId>mobicents-slee-example-google-talk-bot</artifactId>
+		<artifactId>restcomm-slee-example-google-talk-bot</artifactId>
 		<groupId>org.mobicents.examples</groupId>
 		<version>2.8.0-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>mobicents-slee-example-google-talk-bot-release</artifactId>
+	<artifactId>restcomm-slee-example-google-talk-bot-release</artifactId>
 	
 	<profiles>
 		<profile>

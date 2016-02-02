@@ -2,32 +2,32 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
-		<artifactId>mobicents-slee-ra-xmpp</artifactId>
+		<artifactId>restcomm-slee-ra-xmpp</artifactId>
 		<groupId>org.mobicents.resources</groupId>
 		<version>2.8.0-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>mobicents-slee-ra-xmpp-du</artifactId>
+	<artifactId>restcomm-slee-ra-xmpp-du</artifactId>
 		
 	<dependencies>
 		<dependency>
 			<groupId>${pom.groupId}</groupId>
-			<artifactId>mobicents-slee-ra-xmpp-library</artifactId>
+			<artifactId>restcomm-slee-ra-xmpp-library</artifactId>
 			<version>${pom.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>${pom.groupId}</groupId>
-			<artifactId>mobicents-slee-ra-xmpp-events</artifactId>
+			<artifactId>restcomm-slee-ra-xmpp-events</artifactId>
 			<version>${pom.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>${pom.groupId}</groupId>
-			<artifactId>mobicents-slee-ra-xmpp-ratype</artifactId>
+			<artifactId>restcomm-slee-ra-xmpp-ratype</artifactId>
 			<version>${pom.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>${pom.groupId}</groupId>
-			<artifactId>mobicents-slee-ra-xmpp-ra</artifactId>
+			<artifactId>restcomm-slee-ra-xmpp-ra</artifactId>
 			<version>${pom.version}</version>
 		</dependency>
 	</dependencies>

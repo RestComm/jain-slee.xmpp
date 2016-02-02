@@ -1,9 +1,9 @@
 # SLEE
 ${release.dir}
 ${env.JBOSS_HOME}
-examples/google-talk-bot/docs/sources-mobicents/src/
+examples/google-talk-bot/docs/sources-restcomm/src/
 examples/google-talk-bot/docs/sources-telscale/src/
-resources/xmpp/docs/sources-mobicents/src/
+resources/xmpp/docs/sources-restcomm/src/
 resources/xmpp/docs/sources-telscale/src/
 
 # Java compiled #

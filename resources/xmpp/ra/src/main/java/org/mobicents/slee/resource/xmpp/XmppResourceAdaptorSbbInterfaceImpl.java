@@ -146,7 +146,7 @@ public class XmppResourceAdaptorSbbInterfaceImpl implements XmppResourceAdaptorS
 				connection = new ComponentXMPPConnection(componentName,componentSecret,serverHost,serverPort,serviceName);					
 				//Obtain the ServiceDiscoveryManager associated with my XMPPConnection
 				ServiceDiscoveryManager.setIdentityName("mobicents component");
-				ServiceDiscoveryManager.setIdentityType("mobicents");
+				ServiceDiscoveryManager.setIdentityType("restcomm");
 				ServiceDiscoveryManager.setIdentityCategory("component");
 				ra.addListener(connectionID,connection,handle,packetFilters);					
 				if (tracer.isInfoEnabled())

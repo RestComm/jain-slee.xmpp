@@ -5,7 +5,7 @@
 	<sbb>
 		<description>Google Talk Robot</description>
 		<sbb-name>GoogleTalkBotSbb</sbb-name>
-		<sbb-vendor>mobicents</sbb-vendor>
+		<sbb-vendor>restcomm</sbb-vendor>
 		<sbb-version>0.1</sbb-version>
 		<sbb-classes>
 			<sbb-abstract-class>
