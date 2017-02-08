@@ -16,6 +16,7 @@ resources/xmpp/docs/sources-telscale/src/
 .project
 .settings
 .idea
+*.iml
 
 # Maven #
 #########
