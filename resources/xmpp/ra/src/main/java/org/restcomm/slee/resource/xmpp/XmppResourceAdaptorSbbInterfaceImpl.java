@@ -23,7 +23,7 @@
 /**
  * 
  */
-package org.mobicents.slee.resource.xmpp;
+package org.restcomm.slee.resource.xmpp;
 
 import java.util.Collection;
 
@@ -47,7 +47,6 @@ public class XmppResourceAdaptorSbbInterfaceImpl implements XmppResourceAdaptorS
 	
 	/**
 	 * @param ra
-	 * @param tracer
 	 */
 	public XmppResourceAdaptorSbbInterfaceImpl(XmppResourceAdaptor ra) {
 		this.ra = ra;
@@ -65,7 +64,7 @@ public class XmppResourceAdaptorSbbInterfaceImpl implements XmppResourceAdaptorS
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.mobicents.slee.resource.xmpp.XmppResourceAdaptorSbbInterface#getXmppConnection(java.lang.String)
+	 * @see XmppResourceAdaptorSbbInterface#getXmppConnection(java.lang.String)
 	 */
 	public XmppConnection getXmppConnection(String connectionId) {
 		checkState();
@@ -73,7 +72,7 @@ public class XmppResourceAdaptorSbbInterfaceImpl implements XmppResourceAdaptorS
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.mobicents.slee.resource.xmpp.XmppResourceAdaptorSbbInterface#connectClient(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection)
+	 * @see XmppResourceAdaptorSbbInterface#connectClient(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection)
 	 */
 	public XmppConnection connectClient(String connectionID, String serverHost,
 			int serverPort, String serviceName, String username,
@@ -121,7 +120,7 @@ public class XmppResourceAdaptorSbbInterfaceImpl implements XmppResourceAdaptorS
 	}
 
 	/* (non-Javadoc)
-	 * @see org.mobicents.slee.resource.xmpp.XmppResourceAdaptorSbbInterface#connectComponent(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.util.Collection)
+	 * @see XmppResourceAdaptorSbbInterface#connectComponent(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.util.Collection)
 	 */
 	public XmppConnection connectComponent(String connectionID, String serverHost,
 			int serverPort, String serviceName, String componentName,
@@ -145,7 +144,7 @@ public class XmppResourceAdaptorSbbInterfaceImpl implements XmppResourceAdaptorS
 			try {
 				connection = new ComponentXMPPConnection(componentName,componentSecret,serverHost,serverPort,serviceName);					
 				//Obtain the ServiceDiscoveryManager associated with my XMPPConnection
-				ServiceDiscoveryManager.setIdentityName("mobicents component");
+				ServiceDiscoveryManager.setIdentityName("restcomm component");
 				ServiceDiscoveryManager.setIdentityType("restcomm");
 				ServiceDiscoveryManager.setIdentityCategory("component");
 				ra.addListener(connectionID,connection,handle,packetFilters);					
@@ -169,7 +168,7 @@ public class XmppResourceAdaptorSbbInterfaceImpl implements XmppResourceAdaptorS
 	}
 
 	/* (non-Javadoc)
-	 * @see org.mobicents.slee.resource.xmpp.XmppResourceAdaptorSbbInterface#disconnect(java.lang.String)
+	 * @see XmppResourceAdaptorSbbInterface#disconnect(java.lang.String)
 	 */
 	public void disconnect(String connectionID) {
 		
@@ -188,7 +187,7 @@ public class XmppResourceAdaptorSbbInterfaceImpl implements XmppResourceAdaptorS
 	}
 
 	/* (non-Javadoc)
-	 * @see org.mobicents.slee.resource.xmpp.XmppResourceAdaptorSbbInterface#sendPacket(java.lang.String, org.jivesoftware.smack.packet.Packet)
+	 * @see XmppResourceAdaptorSbbInterface#sendPacket(java.lang.String, org.jivesoftware.smack.packet.Packet)
 	 */
 	public void sendPacket(String connectionID, Packet packet) {
 		

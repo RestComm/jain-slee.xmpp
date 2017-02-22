@@ -10,8 +10,8 @@
 		<sbb-classes>
 			<sbb-abstract-class>
 				<sbb-abstract-class-name>
-					org.mobicents.examples.googletalk.GoogleTalkBotSbb
-				</sbb-abstract-class-name>
+                    org.restcomm.examples.googletalk.GoogleTalkBotSbb
+                </sbb-abstract-class-name>
 			</sbb-abstract-class>
 		</sbb-classes>
 		<event event-direction="Receive" initial-event="True">
@@ -78,7 +78,7 @@
 					XMPPResourceAdaptorType
 				</resource-adaptor-type-name>
 				<resource-adaptor-type-vendor>
-					org.mobicents
+					org.restcomm
 				</resource-adaptor-type-vendor>
 				<resource-adaptor-type-version>
 					2.0

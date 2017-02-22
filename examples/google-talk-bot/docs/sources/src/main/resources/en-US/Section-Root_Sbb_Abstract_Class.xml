@@ -6,7 +6,7 @@
 
 <section id="root_sbb_abstract_class">
 			<title>The Root SBB Abstract Class</title>
-			<para> The class <literal>org.mobicents.examples.googletalk.GoogleTalkBotSbb</literal> includes all the service logic for the example.</para>
+			<para> The class <literal>GoogleTalkBotSbb</literal> includes all the service logic for the example.</para>
 		
 			<section id="root_sbb_abstract_class_setSbbContext">
 				<title>The setSbbContext(SbbContext) method</title>

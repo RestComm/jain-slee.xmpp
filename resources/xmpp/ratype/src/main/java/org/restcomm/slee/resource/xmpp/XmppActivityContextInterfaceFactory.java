@@ -20,39 +20,23 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
 
-package org.mobicents.slee.resource.xmpp;
+package org.restcomm.slee.resource.xmpp;
 
-import javax.slee.resource.ActivityHandle;
-
+import javax.slee.ActivityContextInterface;
+import javax.slee.FactoryException;
+import javax.slee.UnrecognizedActivityException;
 
 /**
+ * @author Neutel
  * @author Eduardo Martins
  * @version 2.1
- * 
+ *
  */
 
-public class XmppActivityHandle implements ActivityHandle {
+public interface XmppActivityContextInterfaceFactory {
+
+    public ActivityContextInterface getActivityContextInterface(
+            XmppConnection connection) throws NullPointerException,
+            UnrecognizedActivityException, FactoryException;
 	
-	private String connectionId;
-	
-    public XmppActivityHandle(String connectionId){
-        this.connectionId = connectionId;
-    }
-    
-    public boolean equals(Object o) {
-    	if (o != null && o.getClass() == this.getClass()) {
-			return ((XmppActivityHandle)o).connectionId.equals(this.connectionId);
-		}
-		else {
-			return false;
-		}
-    }    
-    
-    public String toString() {
-        return connectionId;
-    }
-    
-    public int hashCode() {
-    	return connectionId.hashCode();
-    }
 }

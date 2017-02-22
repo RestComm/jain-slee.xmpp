@@ -20,7 +20,7 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
 
-package org.mobicents.slee.resource.xmpp;
+package org.restcomm.slee.resource.xmpp;
 
 import java.util.Collection;
 

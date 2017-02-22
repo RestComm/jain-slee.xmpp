@@ -18,7 +18,7 @@
 		The related log4j category is 
 		<literal>javax.slee.SbbNotification[service=ServiceID[name=GoogleTalkBotService</literal>
 		<literal>,vendor=restcomm,version=0.1],sbb=SbbID[name=GoogleTalkBotSbb,vendor=</literal>
-		<literal>mobicents,version=0.1]]</literal>.</para>
+		<literal>restcomm,version=0.1]]</literal>.</para>
 	</section>	
 	
 	<section id="alarms">

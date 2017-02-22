@@ -35,9 +35,9 @@
 				    </important>
 				    <para>Use Git to checkout a specific release source, the Git repository URL is &THIS.SOURCE_CODE_URL; , then switch to the specific release version, lets consider &THIS.VERSION;.</para>
 				    <programlisting>
-				    [usr]$ git clone &THIS.SOURCE_CODE_URL; restcomm-jain-slee-&THIS.PACKAGE_NAME;
-				    [usr]$ cd restcomm-jain-slee-&THIS.PACKAGE_NAME;
-				    [usr]$ git checkout tags/&THIS.VERSION;
+			[usr]$ git clone &THIS.SOURCE_CODE_URL; restcomm-jain-slee-&THIS.PACKAGE_NAME;
+			[usr]$ cd restcomm-jain-slee-&THIS.PACKAGE_NAME;
+			[usr]$ git checkout tags/&THIS.VERSION;
 					</programlisting>
   				</step>
 				<step>
@@ -47,8 +47,8 @@
 				    </important>
 				    <para>Use Maven to build the deployable unit binary.</para>
 				    <programlisting>
-				    [usr]$ cd resources/&THIS.RA.DIRNAME;
-				    [usr]$ mvn install
+			[usr]$ cd resources/&THIS.RA.DIRNAME;
+			[usr]$ mvn install
 				    </programlisting>
 				    <para>Once the process finishes you should have the <literal>deployable-unit</literal> jar file in the <filename>target</filename> directory, if &THIS.PLATFORM; JAIN SLEE is installed and environment variable JBOSS_HOME is pointing to its underlying &JEE.PLATFORM; directory, then the deployable unit jar will also be deployed in the container.</para>
   				</step>
@@ -71,7 +71,7 @@
 		<programlisting>
 		[usr]$ ant
 		</programlisting>
-		<para>The script will copy the RA deployable unit jar to the <literal>default</literal> &THIS.PLATFORM; JAIN SLEE server profile deploy directory, to deploy to another server profile use the argument <literal>-Dnode=</literal>.</para>
+		<para>The script will copy the RA deployable unit jar to the default deploy folder <literal>standalone/deployments</literal>.</para>
 	</section>
 	
 	<section id="uninstall">
@@ -80,7 +80,7 @@
 		<programlisting>
 		[usr]$ ant undeploy
 		</programlisting>
-		<para>The script will delete the RA deployable unit jar from the <literal>default</literal> &THIS.PLATFORM; JAIN SLEE server profile deploy directory, to undeploy from another server profile use the argument <literal>-Dnode=</literal>.</para>
+		<para>The script will delete the RA deployable unit jar from the default deploy folder <literal>standalone/deployments</literal>.</para>
 	</section>			
 	
 </chapter>

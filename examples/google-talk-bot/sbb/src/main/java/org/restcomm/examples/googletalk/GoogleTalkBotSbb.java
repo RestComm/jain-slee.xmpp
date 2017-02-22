@@ -20,7 +20,7 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
 
-package org.mobicents.examples.googletalk;
+package org.restcomm.examples.googletalk;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -39,9 +39,9 @@ import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.packet.Message;
 import org.jivesoftware.smack.packet.Presence;
 import org.jivesoftware.smack.util.StringUtils;
-import org.mobicents.slee.resource.xmpp.XmppActivityContextInterfaceFactory;
-import org.mobicents.slee.resource.xmpp.XmppConnection;
-import org.mobicents.slee.resource.xmpp.XmppResourceAdaptorSbbInterface;
+import org.restcomm.slee.resource.xmpp.XmppActivityContextInterfaceFactory;
+import org.restcomm.slee.resource.xmpp.XmppConnection;
+import org.restcomm.slee.resource.xmpp.XmppResourceAdaptorSbbInterface;
 
 /**
  * @author Neutel
@@ -64,9 +64,9 @@ public abstract class GoogleTalkBotSbb implements javax.slee.Sbb {
 	private final static Class<?>[] packetsToListen = { Message.class,
 			Presence.class };
 
-	private final static String connectionID = "org.mobicents.examples.googletalk.GoogleTalkBotSbb";
+	private final static String connectionID = "GoogleTalkBotSbb";
 
-	private static final String resource = "MobicentsGoogleTalkBot";
+	private static final String resource = "RestcommGoogleTalkBot";
 
 	private static final String serviceHost = "talk.google.com";
 

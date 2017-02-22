@@ -5,9 +5,9 @@
 ]>
 <section id="ratype_ra_interface">
   <title>Resource Adaptor Interface</title>
-  <para>The &THIS.RA; Resource Adaptor interface, of type <literal>org.mobicents.slee.resource.xmpp.XmppResourceAdaptorSbbInterface</literal> , is used by an SBB  to interact with XMPP resources. It is defined as follows:</para>
+  <para>The &THIS.RA; Resource Adaptor interface, of type <literal>XmppResourceAdaptorSbbInterface</literal> , is used by an SBB  to interact with XMPP resources. It is defined as follows:</para>
   <programlisting language="Java" role="JAVA">  <![CDATA[
-package org.mobicents.slee.resource.xmpp;
+package org.restcomm.slee.resource.xmpp;
 
 import java.util.Collection;
 
