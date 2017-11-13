@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.mobicents.servers.jainslee.xmpp</groupId>
 		<artifactId>restcomm-slee-xmpp</artifactId>
-		<version>7.0.0-SNAPSHOT</version>
+		<version>7.2.0-60</version>
 		<relativePath>../..</relativePath>
 	</parent>
 				
