@@ -30,6 +30,25 @@ Base directory should be: ${project_loc:jain-slee.xmpp-master} add 'clean instal
 
 Running it now will generate the required jars.
 
+Deployment
+----------
+
+jain slee server is the pre req to deploy this. So you can download the release candidate from following link:
+https://github.com/RestComm/jain-slee/releases
+
+You will find wildfly 10 in the zip. Go to wildfly->bin and run it by following command:
+
+./standalone.sh
+
+
+
+jain slee is now deployed. Now you need xmpp ra deployed. You can find the complete ra already built in the resource folder of restcomm release.
+
+simply copy the jar file to deployments in wildfly.
+
+After deploying the xmpp ra you can deploy the GoogleSBBTalkBot SBB jar.
+
+
 
 
 
